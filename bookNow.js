@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
           notAvailableDiv.classList.add("not-available");
           card.appendChild(notAvailableDiv);
         }
-        notAvailableDiv.textContent = "Booked!";
+        notAvailableDiv.textContent = "In the process of Renting!!";
         notAvailableDiv.style.opacity = 1;
         notAvailableDiv.style.top = "20%";
 
@@ -205,3 +205,4 @@ document.addEventListener("DOMContentLoaded", () => {
     inputs.forEach((input) => input.classList.remove("error"));
   });
 });
+
