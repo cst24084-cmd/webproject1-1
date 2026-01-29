@@ -375,7 +375,7 @@ html {
   left: 0;
   display: flex;
   width: 400px;
-  height: 660px;
+  height: 600px;
   justify-content: center;
   align-items: start;
   padding-top: 20px;
@@ -760,6 +760,7 @@ input:not(:placeholder-shown):valid {
     .hero-btns {width: 100%;}   
   }
  }
+
 
 
 
